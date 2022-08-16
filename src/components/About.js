@@ -43,7 +43,7 @@ class About extends Component {
             to the actual cars.com above and we did not receive any money from
             them to do so. Although, there's an argument that maybe we should
             since we are a top-notch coding bootcamp and anyone would want to be
-            associated with us :)
+            associated with us : )
           </p>
           <Divider />
           <p>
@@ -62,3 +62,4 @@ class About extends Component {
 }
 
 export default About;
+  

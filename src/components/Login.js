@@ -22,9 +22,10 @@ const Login = () => {
 
   const login = (e) => {
     e.preventDefault();
-    // set cookie here
+    // document.cookie = "LoggedIn=true;expires=Fri, 12 Aug 2022 10:56:00 UTC";
     // set loggedIn = true and max-age = 60*1000 (one minute)
-
+    document.cookie = "LoggedIn=true;max-age=60*100";
+    console.log(document.cookie)
     navigate("/");
   };
 
